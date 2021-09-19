@@ -48,7 +48,8 @@ valorConvertido.innerHTML =
 valor.toLocaleString("pt-BR",{style: "currency",
 currency: "BRL" }) + " = VL " +
 conversao.toFixed(2);
-    } else {
+    } 
+    else {
         alert("informe um valor")
     }
     /*if(dolar1.checked){

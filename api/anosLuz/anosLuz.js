@@ -17,31 +17,10 @@ var conversao =  (valor /9461) +12 ;
 
 //mostra na tela 
 valorConvertido.innerHTML =
-valor.toLocaleString("pt-BR","KM") + " = VL " +
+valor.toLocaleString("pt-BR","KM") + " = AnosLuzes " +
 conversao.toFixed(2);
     } else {
         alert("informe um valor")
     }
-    /*if(dolar1.checked){
-        const dolar = valor1 / 5.30;
-        document.getElementById('valorConvertidoDolar').innerHTML = ("Valor em Dola americano: ") + dolar;
-
-    } else if(libra1.checked){
-        const libra = valor1 / 7.30;
-        document.getElementById('valorConvertidoLibra').innerHTML = ("Valor em libra: ") + libra;
-
-    }
-    else if(euro1.checked){
-        const euro = valor1 / 8.30;
-        document.getElementById('valorConvertidoEuro').innerHTML = ("Valor em euro: ") + euro;
-
-    }
-    else if(anosLuz1.checked){
-        const anosLuz = valor1 / 9.461;
-        document.getElementById('valorConvertidoAnosLuz').innerHTML = ("Valor em anos luz: ") + anosLuz;
-
-    }*/
-
-   // tableshowhide('converter')
-
+    
 }

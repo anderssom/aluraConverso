@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <link rel="stylesheet" href="./temperatura.css">
+  <script src="./temperatura.js"></script>
+<body>
+  <div class="container">
+      <h1 class="page-title">
+        Conversor AluraDevM4drugs
+      </h1>
+      <p class="page-subtitle">
+        Abra sua mente para novas ideias !!!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      <form>
+        <label for="moeda"></label><br>
+  <input type="number" id="valor" size="2" placeholder="Informe um valor"><br><br><br>
+  <label for="moeda1">De:</label>
+  <select id="moeda1">
+    <option value="farenheit">Farenheit</option>
+    <option value="kelvin">Kelvin</option>
+    <option value="Celcius">Celcius</option>
+  </select>
+  <label for="moeda2">Para:</label>
+  <select id="moeda2">
+    <option value="farenheit">Farenheit</option>
+    <option value="kelvin">Kelvin</option>
+    <option value="Celcius">Celcius</option>
+  </select><br>
+  <input id="converter" type="button" onclick="converte()" value="Coverte">  
+  <input type="button" id="anoluz" value="ano Luz" onclick="anoluz(location.replace('../anosLuz/anosLuz.html'))">
+  <input type="button" id="home" value="Home" onclick="home(location.replace('../home/index.html'))">
+
+  <h2 id="valorConvertido" ></h2>
+</div>
+          
+      </form>
+      
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>

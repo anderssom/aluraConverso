@@ -1,0 +1,107 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+ form label {
+    color: white;
+  }
+  form{
+    background: rgba(222, 230, 230, 0.7);
+     box-shadow: 1px 2px 10px blue, 3px 6px 20px blue;
+      max-width: 300px;
+      width: 70%;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 20px 0;
+
+}
+form input[id=valor]{
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+form input[id=converter],
+form input[id=home],
+form input[id=estrelas]{
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  cursor: pointer;
+  background: darkgrey;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 1s;
+}
+form input[id=converter]:hover{
+  background-color: cadetblue;
+}
+form input[id=home]:hover{
+  background-color: cadetblue;
+}
+form input[id=estrelas]:hover{
+  background-color: cadetblue;
+}
+ 
+  form h2[id="valorConvertido"]{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  form h1 [id="valorConvertido"]{
+    text-align: center;
+    color: rgb(124, 121, 121);
+  }
+  form input [id="real"],
+  form input [id= "dolar"]{
+    text-align: center;
+   background-color: rgb(124, 121, 121);
+   width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  }
